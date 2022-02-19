@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestDarkApp</string>
+    <string name="mode">Mode</string>
+</resources>
