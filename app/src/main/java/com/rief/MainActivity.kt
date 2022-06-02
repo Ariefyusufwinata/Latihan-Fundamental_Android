@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             btnChoose.setOnClickListener {
                 val checkedId = radioGroup.checkedRadioButtonId
-                var message : String = " "
+                var message  = " "
                 when (checkedId) {
                     R.id.cValueOne -> {
                         message = "Value 1"
